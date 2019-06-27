@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -29,15 +31,20 @@
         </div>
         <div class="row">    
             <div class="col-md-4">
-                <img src="assets/images/Rock.png" id="rock-img" class="rounded-circle">
+                <img src="assets/images/Rock.png" id="r" class="rounded-circle">
             </div>
             <div class="col-md-4">
-                <img src="assets/images/Paper.png" id="paper-img" class="rounded-circle">
+                <img src="assets/images/Paper.png" id="p" class="rounded-circle">
             </div>        
             <div class="col-md-4">
-                <img src="assets/images/Scissors.png" id="scissors-img" class="rounded-circle">
+                <img src="assets/images/Scissors.png" id="s" class="rounded-circle">
             </div>
         </div>
     </div>
+    <div class="button-wrapper" id="messaging">
+        <input id="chat">
+        <button id="say">send</button>
+    </div>
 </body>
+<script src="assets/javascript/app.js"></script>
 </html>
